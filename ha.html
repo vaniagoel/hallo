@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>My Personal Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home">
+    <h2>Welcome to my website!</h2>
+    <p>Hi, I'm John Doe, a web developer based in New York City.</p>
+    <p>I specialize in creating modern and responsive websites using HTML, CSS, and JavaScript.</p>
+  </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I have over 5 years of experience in web development, and I'm passionate about creating user-friendly and visually appealing websites that deliver a seamless user experience.</p>
+  </section>
+  <section id="portfolio">
+    <h2>My Portfolio</h2>
+    <ul>
+      <li>
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </li>
+      <li>
+        <img src="project2.jpg" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Nullam feugiat vehicula metus, vel finibus odio interdum ac.</p>
+      </li>
+      <li>
+        <img src="project3.jpg" alt="Project 3">
+        <h3>Project 3</h3>
+        <p>Donec consequat, elit vitae malesuada luctus, ligula lacus vulputate mi.</p>
+      </li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="submit_form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2023 John Doe. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
